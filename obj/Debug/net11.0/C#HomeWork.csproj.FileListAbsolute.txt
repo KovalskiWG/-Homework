@@ -1,0 +1,16 @@
+C:\Users\Grinder\Desktop\study\C#\C#HomeWork\obj\Debug\net11.0\C#HomeWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Grinder\Desktop\study\C#\C#HomeWork\obj\Debug\net11.0\C#HomeWork.AssemblyInfoInputs.cache
+C:\Users\Grinder\Desktop\study\C#\C#HomeWork\obj\Debug\net11.0\C#HomeWork.AssemblyInfo.cs
+C:\Users\Grinder\Desktop\study\C#\C#HomeWork\obj\Debug\net11.0\C#HomeWork.csproj.CoreCompileInputs.cache
+C:\Users\Grinder\Desktop\study\C#\C#HomeWork\bin\Debug\net11.0\C#HomeWork.exe
+C:\Users\Grinder\Desktop\study\C#\C#HomeWork\bin\Debug\net11.0\C#HomeWork.deps.json
+C:\Users\Grinder\Desktop\study\C#\C#HomeWork\bin\Debug\net11.0\C#HomeWork.runtimeconfig.json
+C:\Users\Grinder\Desktop\study\C#\C#HomeWork\bin\Debug\net11.0\C#HomeWork.runtimeconfig.dev.json
+C:\Users\Grinder\Desktop\study\C#\C#HomeWork\bin\Debug\net11.0\C#HomeWork.dll
+C:\Users\Grinder\Desktop\study\C#\C#HomeWork\bin\Debug\net11.0\C#HomeWork.pdb
+C:\Users\Grinder\Desktop\study\C#\C#HomeWork\obj\Debug\net11.0\C#HomeWork.dll
+C:\Users\Grinder\Desktop\study\C#\C#HomeWork\obj\Debug\net11.0\refint\C#HomeWork.dll
+C:\Users\Grinder\Desktop\study\C#\C#HomeWork\obj\Debug\net11.0\C#HomeWork.pdb
+C:\Users\Grinder\Desktop\study\C#\C#HomeWork\obj\Debug\net11.0\C#HomeWork.genruntimeconfig.cache
+C:\Users\Grinder\Desktop\study\C#\C#HomeWork\obj\Debug\net11.0\ref\C#HomeWork.dll
+C:\Users\Grinder\Desktop\study\C#\C#HomeWork\obj\Debug\net11.0\C#HomeWork.csproj.Up2Date
