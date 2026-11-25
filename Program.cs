@@ -1,4 +1,11 @@
-﻿static void Task1_1()
+﻿// Для проверки задания введите название функции с соответсвующим номером ДЗ и задания из перечня:
+// от  Task1_1   до   Task1_8
+// от  Task2_1   до   Task2_4
+// Task3_1
+
+
+
+static void Task1_1()
 {
     Console.WriteLine("Введите два целых числа.");
     int a = Convert.ToInt32( Console.ReadLine() );
