@@ -182,23 +182,42 @@
 // Console.WriteLine($"Разница: {max - min}");
 
 
-// Task 2.4
+// // Task 2.4
+// Random random = new Random();
+
+// int n = random.Next(1, 100001);
+// string nToString = n.ToString();
+// int[] numToArray = new int[nToString.Length];
+
+// for (int i = 0; i < nToString.Length; i++)
+// {
+//     numToArray[i] = nToString[i] - '0';
+// }
+
+// Console.WriteLine(n);
+
+// for (int i = 0; i < numToArray.Length; i++)
+// {
+//     Console.Write($"{numToArray[i]} ");
+// }
+
+
+// // Task 3.1
 Random random = new Random();
 
-int n = random.Next(1, 100001);
-string nToString = n.ToString();
-int[] numToArray = new int[nToString.Length];
+int[] numbers = new int[20];
+int even = 0;
 
-for (int i = 0; i < nToString.Length; i++)
+for (int i = 0; i < numbers.Length; i++)
 {
-    numToArray[i] = nToString[i] - '0';
+    numbers[i] = random.Next(100, 1000);
+    Console.Write($"{numbers[i]} ");
 }
 
-Console.WriteLine(n);
-
-for (int i = 0; i < numToArray.Length; i++)
+for (int i = 0; i < numbers.Length; i++)
 {
-    Console.Write($"{numToArray[i]} ");
+    if (numbers[i] % 2 == 0)
+        even++;
 }
 
-
+Console.WriteLine($"\n{even} четных чисел");
