@@ -48,16 +48,16 @@
 
 
 // Task 1.5
-Console.WriteLine("Введите целое число.");
-int a = Convert.ToInt32( Console.ReadLine() );
+// Console.WriteLine("Введите целое число.");
+// int a = Convert.ToInt32( Console.ReadLine() );
 
-if (a % 7 == 0 && a % 23 == 0)
-{
-    Console.WriteLine($"{a} кратен 7 и 23 одновременно");
-} else
-{
-    Console.WriteLine($"{a} - НЕ кратен 7 и 23 одновременно");
-}
+// if (a % 7 == 0 && a % 23 == 0)
+// {
+//     Console.WriteLine($"{a} кратен 7 и 23 одновременно");
+// } else
+// {
+//     Console.WriteLine($"{a} - НЕ кратен 7 и 23 одновременно");
+// }
 
 
 // Task 1.6
@@ -114,3 +114,91 @@ if (a % 7 == 0 && a % 23 == 0)
 //         Console.Write(", ");
 //     }
 // }
+
+// Task 2.1
+// Random random = new Random();
+
+// int[] numbers = new int[10];
+// int entry = 0;
+
+// for (int i = 0; i < numbers.Length; i++)
+// {
+//     numbers[i] = random.Next(1, 101);
+//     Console.Write($"{numbers[i]} ");
+// }
+
+// for (int i = 0; i < numbers.Length; i++)
+// {
+//     if (numbers[i] >= 20 && numbers[i] <= 90)
+//         entry++;
+// }
+
+// Console.WriteLine($"\n{entry} вхождений в интервал");
+
+
+// Task 2.2
+// Random random = new Random();
+
+// int[] numbers = new int[10];
+// int entry = 0;
+
+// for (int i = 0; i < numbers.Length; i++)
+// {
+//     numbers[i] = random.Next(1, 101);
+//     Console.Write($"{numbers[i]} ");
+// }
+
+// for (int i = 0; i < numbers.Length; i++)
+// {
+//     if (numbers[i] % 2 == 0)
+//         entry++;
+// }
+
+// Console.WriteLine($"\n{entry} четных чисел");
+
+
+// Task 2.3
+// Random random = new Random();
+
+// double[] numbers = new double[10];
+
+// for (int i = 0; i < numbers.Length; i++)
+// {
+//     numbers[i] = Math.Round(random.NextDouble() * 100, 3);
+//     Console.Write($"{numbers[i]} ");
+// }
+
+// double max = numbers[0];
+// double min = numbers[0];
+
+// for (int i = 1; i < numbers.Length; i++)
+// {
+//     max = Math.Max(max, numbers[i]);
+//     min = Math.Min(min, numbers[i]);
+// }
+
+// Console.WriteLine($"\nМаксимальное: {max}");
+// Console.WriteLine($"Минимальное: {min}");
+// Console.WriteLine($"Разница: {max - min}");
+
+
+// Task 2.4
+Random random = new Random();
+
+int n = random.Next(1, 100001);
+string nToString = n.ToString();
+int[] numToArray = new int[nToString.Length];
+
+for (int i = 0; i < nToString.Length; i++)
+{
+    numToArray[i] = nToString[i] - '0';
+}
+
+Console.WriteLine(n);
+
+for (int i = 0; i < numToArray.Length; i++)
+{
+    Console.Write($"{numToArray[i]} ");
+}
+
+
